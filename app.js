@@ -171,4 +171,120 @@ result2 = --a - --b;
 result3 = --a - --b + ++b;
 result4 = --a - --b + ++b + b--;
 document.write("a is " + a+"<br>b is "+b+"<br>result 1 is "+result1+"<br>result 2 is "+result2+"<br>result 3 is "+result3+"<br>result 4 is "+result4)
+
+// ==== Chapter 6 Task #3
+name=prompt("Enter your name")
+alert("Welcome Aboard")
+// ==== Chapter 6 Task #5
+var table=prompt("Enter any number ")
+var table1
+table1=table*1
+var table2
+table2=table*2
+var table3
+table3=table*3
+var table4
+table4=table*4
+var table5
+table5=table*5
+var table5
+table5=table*5
+var table6
+table6=table*6
+var table7
+table7=table*7
+var table8
+table8=table*8
+var table9
+table9=table*9
+var table10
+table10=table*10
+document.write("Table of "+table+"<br>"+table+"x1= "+table1+"<br>"+table+"x2= "+table2+"<br>"+table+"x3= "+table3+"<br>"+table+"x4= "+table4+"<br>"+table+"x5= "+table5+"<br>"+table+"x6= "+table6+"<br>"+table+"x7= "+table7+"<br>"+table+"x8= "+table8+"<br>"+table+"x9= "+table9+"<br>"+table+"x10= "+table10+"<br>")
+// ==== Chapter 6 Task #5
+var english=prompt("Enter the marks of English")
+var math=prompt("Enter the marks of Math")
+var urdu=prompt("Enter the marks of Urdu")
+var total=100
+var totalMarks=math+english+urdu
+perEng=(english/total)*100
+perMath=(math/total)*100
+perUrd=(urdu/total)*100
+document.write("<b>Subject TotalMarks ObtainedMarks Percentage</b>"+
+"<br>English  100"+
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+english+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+perEng+  
+"<br>Math  100"+
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+math+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+perMath+ 
+"<br>Urdu  100"+
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "+urdu+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+perUrdu+  )
+// ==== Chapter 11 Task #1
+var city
+city=prompt("Enter City Name")
+if (city==="Karachi") {
+    alert("Welcome to city of lights")
+}
+else{alert("City not Found")}
+// ==== Chapter 11 Task #2
+var gender
+gender=prompt("Enter Gender")
+if (gender==="male") {
+    alert("Good Morning Sir")}
+    if (gender==="female") {
+        alert("Good Morning Ma’am.")
+    }
+// ==== Chapter 11 Task #3
+var signal
+signal=prompt("Enter Signal")
+if (signal==="red") {
+    alert("Must Stop")}
+    if (signal==="yellow") {
+        alert("Ready to move")
+    }
+    if (signal==="green") {
+        alert("Move now")
+    }
+// ==== Chapter 11 Task #4
+var fuel
+fuel=prompt("Enter remaining fuel")
+if (fuel<0.25) {
+    alert("Please refill the fuel in your car")
+}
+else{alert("No problem")}
+
+// ==== Chapter 11 Task #5
+var a = 4; if (++a === 5){ alert("given condition for variable a is true")}
+var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); }
+var c = 12; if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } if(c === 14){ alert("condition 4 is true"); }
+var materialCost = 20000; var laborCost = 2000; var totalCost = materialCost + laborCost; if (totalCost === laborCost + materialCost){ alert("The cost equals"); }
+
+// ==== Chapter 11 Task #6
+var per
+var grade 
+var maxTotal
+var remarks
+total=0
+maxTotal=300
+var eng=prompt("Enter the marks of English");
+var math=prompt("Enter the marks of Math");
+var urdu=prompt("Enter the marks of Urdu");
+eng=parseInt(eng)
+math=parseInt(math)
+urdu=parseInt(urdu)
+per=parseInt(per)
+var total = eng + math + urdu;
+per=(total/maxTotal)*100
+if (per>=80) {
+grade="A-one"
+remarks="Excellent"
+}
+if (per<80 && per>=70 ) {
+    grade="A"
+    remarks="Good"}
+if (per<70 && per>=60 ) {
+        grade="B"
+        remarks="You need to improve"}
+if (per<60) {
+            grade="Fail"
+            remarks="Sorry"}
+document.write("<b>Marks Sheet</b><br><br>"+"Total Marks :"+maxTotal+"<br>Marks obtained :"+total+
+"<br>Percentage :"+per+"%<br>Grade :"+grade+"<br>Remarks :"+remarks)            
 */
